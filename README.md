@@ -23,4 +23,4 @@ pyinstaller --onefile main.py
 
 1.откройте консоль и перейдите в эту папку используя cd
 
-2.вставьте это: pyinstaller --onefile --noconsole --uac-admin -n "WinLocker" --add-data "sound.wav;." --add-data "logo.ico;." --add-data "meme.png;." -i "logo.ico" main.py
+2.вставьте это: pyinstaller --onefile --noconsole --uac-admin -n "WinLocker" --add-data "sound.mp3;." --add-data "logo.ico;." --add-data "meme.png;." -i "logo.ico" main.py
